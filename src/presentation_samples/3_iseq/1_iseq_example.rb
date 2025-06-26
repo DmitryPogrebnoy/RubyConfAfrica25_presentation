@@ -1,5 +1,5 @@
 def say_hello
-  puts "Hello RubyKaigi2025!"
+  puts "Hello Ruby developers 💎!"
 end
 
 method_object = method(:say_hello)

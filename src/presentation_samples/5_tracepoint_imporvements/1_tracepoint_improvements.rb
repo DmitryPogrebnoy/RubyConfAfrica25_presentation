@@ -1,5 +1,5 @@
-def say_hello = puts "Hello RubyKaigi2025!"
-def say_goodbye = puts "Goodbye RubyKaigi2025!"
+def say_hello = puts "Hello Ruby developers 💎!"
+def say_goodbye = puts "Goodbye Ruby developers 💎!"
 
 iseq = RubyVM::InstructionSequence.of(method(:say_hello))
 trace = TracePoint.new(:call) do |tp|
@@ -11,7 +11,7 @@ trace.enable(target: iseq)
 say_hello
 say_goodbye
 # => Calling method 'say_hello'
-# => Hello RubyKaigi2025!
-# => Goodbye RubyKaigi2025!
+# => Hello Ruby developers 💎!
+# => Goodbye Ruby developers 💎!
 
 

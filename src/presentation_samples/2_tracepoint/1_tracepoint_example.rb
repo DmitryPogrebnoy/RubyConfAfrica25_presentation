@@ -1,5 +1,5 @@
 def say_hello
-  puts "Hello RubyKaigi2025!"
+  puts "Hello Ruby developers 💎!"
 end
 
 TracePoint.new(:call) do |tp|
@@ -8,7 +8,7 @@ end.enable
 
 say_hello
 # => Calling method 'say_hello'
-# => Hello RubyKaigi2025!
+# => Hello Ruby developers 💎!
 
 
 
