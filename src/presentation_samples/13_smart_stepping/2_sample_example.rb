@@ -5,7 +5,7 @@ class MyPrinter
   end
 
   def print_ruby_kaigi
-    print "Ruby Developers 💎"
+    print "Ruby developers 💎"
     self
   end
 
@@ -16,7 +16,7 @@ class MyPrinter
 end
 
 MyPrinter.new.print_hello.print_ruby_kaigi.print_bang
-# => Hello RubyKaigi2025!
+# => Hello Ruby developers 💎!
 
 
 
